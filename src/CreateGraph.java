@@ -3,6 +3,7 @@ import java.util.HashSet;
 import java.util.List;
 
 public class CreateGraph {
+    //c4:修改的第二个文件
     public static List<String> getWordSet (List<String> original_word_list) {
         //b1:修改的第一个文件
         List<String> word_list = new ArrayList<>(original_word_list);
