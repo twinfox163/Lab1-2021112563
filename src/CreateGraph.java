@@ -4,6 +4,7 @@ import java.util.List;
 
 public class CreateGraph {
     public static List<String> getWordSet (List<String> original_word_list) {
+        //b1:修改的第一个文件
         List<String> word_list = new ArrayList<>(original_word_list);
         HashSet<String> words_set = new HashSet<>(word_list);
 
