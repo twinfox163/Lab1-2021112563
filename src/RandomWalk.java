@@ -3,6 +3,7 @@ import java.util.List;
 import java.util.Random;
 
 public class RandomWalk {
+    //IDE: 修改一些内容
     public static List<String> randomWalk (int[][] weight, List<String> word_set_list) {
         List<String> walk_result = new ArrayList<>();
         int word_set_size = word_set_list.size();
