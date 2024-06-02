@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 public class HandleString {
+    //b2:修改的第二个文件
     public static List<String> readString (String filepath) {
         File file = new File(filepath);
         List<String> strings = new ArrayList<>();

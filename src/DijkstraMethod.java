@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DijkstraMethod {
+    //b2:修改的第一个文件
     public static List<String> calcShortestPath (List<String> word_set_list, int[][] weight, int size, int from_index, int to_index) {
         int[] path = new int[size];
         int[] path_index = new int[size];
