@@ -3,6 +3,7 @@ import java.util.List;
 import java.util.Random;
 
 public class BridgeWord {
+    //c4:修改的第一个文件
     public static List<String> queryBridgeWords (int[][] weight, List<String> word_set, String from_word, String to_word) {
         int from_index = word_set.indexOf(from_word);
         int to_index = word_set.indexOf(to_word);
